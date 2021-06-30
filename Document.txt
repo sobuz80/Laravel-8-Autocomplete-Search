@@ -1,0 +1,5 @@
+php artisan make:controller AutoCompleteController
+php artisan migrate
+#php artisan tinker
+App\Models\User::factory()->count(5)->create()
+ php artisan serve
